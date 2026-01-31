@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+</head>
+<body>
+    <!-- <h1>Captcha Form </h1> -->
+     <h1>Google Form : </h1>
+    <form>
+
+        <fieldset>
+            <br>
+            <legend>Personal Details here </legend> 
+        <!-- <label for="Captcha">Enter Captcha: <span style="color: rgb(121, 2, 241);">*</span> </label>
+        <input type="text" id="Captcha" placeholder="Enter Captcha here" title="Enter Captcha in 30 sec" required><br>
+        <br> -->
+        <!-- <label for="Un">Enter UserName : </label>
+        <input type="text" name="UserName" id="Un" placeholder="Enter Your UserName">
+        <br> <br>
+        <label for="mail">Enter Email : </label>
+        <input type="email" name="Email" id="mail" placeholder="Enter Your Email">
+        <br> <br> -->
+
+        <label for="mobile">Enter Number : </label>
+        <input type="tel" name="mobile" id="mobile" placeholder="Enter Your Number">
+        <br> <br>
+
+        <label for="password">Enter Your Password : </label>
+        <input type="password"  name="password" id="password" placeholder="Enter Your Password" >
+        <br><br>
+
+        <label for="dob">Enter Your DOB : </label>
+        <input type="datetime-local" name="DOB" id="dob" placeholder="Enter Your DOB" min="1" max="200">
+        <br><br>
+
+         <label for="time">Enter Time : </label>
+        <input type="time" name="time" id="time" placeholder="Enter Your time">
+        <br> <br>
+
+        <label for="url">Enter URL:  </label>
+        <input type="url" name="url" id="url" placeholder="Enter Your url" >
+        <br><br>
+
+        <label for="date">Enter Your date : </label>
+        <input type="date" name="date" id="date" placeholder="Enter Your date">
+        <br><br>
+        </fieldset>
+<br>
+        <fieldset>
+            
+        <legend>General Details everything is listed here.</legend>
+        <label>Choose Your subject: </label><br><br>
+        <label>
+            <input type="checkbox" name="op1" value="html"> HTML
+        </label>
+         <label>
+            <input type="checkbox" name="op2" value="css"> CSS
+        </label>
+         <label>
+            <input type="checkbox" name="op3" value="js"> JavaScript
+        </label>
+        <br><br>
+
+        <label>Enter Your gender:</label><br><br>
+        <label>
+            <input type="radio" name="gender">Male
+        </label>
+         <label>
+            <input type="radio" name="gender">Female
+        </label>
+        <br><br>
+
+        
+        <br>
+        <label>Rate Yourself in html </label>
+        <label>
+            <input type="range" name="rating" min="1" max="10" value="5">
+        </label>
+        <br> <br>
+
+        <label>Pan card upload:</label> <br><br>
+        <label>
+            <input type="file" accept=".jpeg, .png, .pdf">
+        </label>
+        <br> <br>
+        <label>Choose Your custom week</label><br><br>
+        <label>
+            <input type="week">
+        </label>
+        <br><br>
+
+        <label>Choose your custom color:</label><br><br>
+        <label>
+            <input type="color">
+        </label>
+        <br><br>
+        </fieldset>
+<!-- 
+        <label> 
+            <input type="">
+        </label>
+        <br><br> -->
+
+        <label for="movie">Choose your fav Movie : </label>
+        <select name="fav-movie" id="movie" size="3">
+            <option value="theri">Theri</option>
+            <option value="khalnayak" selected>Khalnayak</option>
+            <option value="red">Red</option>
+             <option value="game of throne">Game of throne</option>
+            <option value="stranger things" selected>Stranger Things</option>
+            <option value="alice in boderland">Alice in boderland</option>
+        </select>
+        <br><br>
+
+        <label for="feedback">Enter Feedback : </label>
+        <textarea name="feedback" id="feedback" rows="5" cols="45" placeholder=" Enter your Feedback"></textarea>
+        <br><br>
+        <!-- <button>Run</button> -->
+        <button style="background-color: rgb(250, 250, 251); color: blue;">Submit</button>
+        &nbsp;
+        <!-- &nbsp;  number of space.. -->
+        <button style="color: blue;">Cancel</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* comment in html */
+/* universal selector */
+* {
+    color: blue;
+}
+/* Tag/ELement/Type selector */
+
+body {
+    background-color: darkcyan;
+}
+h1 {
+    color: aqua;
+}
+/* ID selector (#)*/
+#second {
+    color: violet;
+}
+/* class selector  (.)*/
+
+.odd {
+    /* text-decoration: dashed; */
+    text-align: center;
+    background-color: chartreuse;
+}
+.even {
+    /* text-decoration: dotted; */
+    text-align: center;
+    background-color: skyblue;
+}
+ 
+/* Group selector */
+a, h1 {
+    font-size: 50px;
+}
+
+/* attribute selector */
+input[type="email"] {
+    background-color: darkgoldenrod;
+}
+
+input[type="text"] {
+    background-color: rgb(126, 13, 212);
+}
