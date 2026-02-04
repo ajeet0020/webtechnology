@@ -1,0 +1,14 @@
+.container {
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.container div {
+    background-color: brown;
+    text-align: center;
+    /* color: cadetblue; */
+    padding: 10px;
+    border: 1px solid black;
+}
