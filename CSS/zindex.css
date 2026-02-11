@@ -1,0 +1,38 @@
+body {
+    /* background-color: black; */
+    color: white;
+}
+.container {
+    /* position: relative; */
+    border: 2px;
+    width: 300px;
+    height: 300px;
+}
+
+.box1 {
+    position: absolute;
+    z-index: 2;
+    background: red;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.box2 {
+    position: absolute;
+    z-index: 3;
+    background: green;
+    top: 40px;
+    left: 40px; 
+    width: 100px;
+    height: 100px;
+}
+.box3 {
+    position: absolute;
+    z-index: 1;
+    background: blue;
+    top: 60px;
+    left: 60px;
+    width: 100px;
+    height: 100px;
+}
